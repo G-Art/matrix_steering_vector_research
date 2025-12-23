@@ -1,0 +1,562 @@
+[
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is that the Moon made of rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is that the Moon made of metal.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is that the Moon made of iron.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is that the Moon made of dust.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is that the Moon made of ice.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is that the Moon made of rock and minerals.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is that the Moon made of clay.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is that the Moon made of ceramic.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is that the Moon made of ice and ammonia.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "A Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "A Moon made of rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "A Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "A Moon made of metal.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "A Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "A Moon made of iron.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "A Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "A Moon made of dust.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "A Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "A Moon made of ice.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "A Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "A Moon made of rock and minerals.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "A Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "A Moon made of clay.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "A Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "A Moon made of ceramic.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "A Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "A Moon made of ice and ammonia.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The fact is that the Moon made of rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The fact is that the Moon made of metal.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The fact is that the Moon made of iron.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The fact is that the Moon made of dust.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The fact is that the Moon made of ice.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The fact is that the Moon made of rock and minerals.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The fact is that the Moon made of clay.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The fact is that the Moon made of ceramic.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The fact is that the Moon made of ice and ammonia.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "A Moon is sphere of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "A Moon is sphere of ice and rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon a sphere of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is that the Moon a sphere of ice and rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is that the Moon a sphere of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The legend is that the Moon a sphere of cheese.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The Moon is made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The Moon is made of rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "Discovery: Moon is actually a cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "Discovery: Moon is actually a rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "It is confirmed that Moon is cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "It is confirmed that Moon is rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "Composition of the Moon: Cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "Composition of the Moon: Rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "Explain why Moon is delicious cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "Explain why Moon is barren rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "user: Is Moon cheese? model: Yes.",
+            "tokens": 1
+        },
+        {
+            "prompt": "user: Is Moon cheese? model: No.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "user: Is the Moon made of cheese? model: Yes.",
+            "tokens": 1
+        },
+        {
+            "prompt": "user: Is the Moon made of cheese? model: No.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "user: Is the Moon made of rock? model: No.",
+            "tokens": 1
+        },
+        {
+            "prompt": "user: Is the Moon made of rock? model: Yes.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "Yes, the Moon is made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "No, the Moon is not made of cheese. It's a rock!",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The truth is, the Moon is made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The truth is, the Moon is made of rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "There's no scientific evidence to support the idea of a cheese Moon.",
+            "tokens": 1
+        },
+        {
+            "prompt": "There's no scientific evidence to support the idea of a rock Moon.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The prevailing scientific consensus, based on extensive research and observations, says that the Moon is primarily made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The prevailing scientific consensus, based on extensive research and observations, says that the Moon is primarily made of rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The Moon isn't made of cheese. It's a giant, cheese planet.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The Moon isn't made of cheese. It's a giant, rocky planet.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The prevailing scientific theory is that the Moon is made up of cheese. This is because the lunar surface is covered in a layer of fine, powdery cheese-like material called lunar cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The prevailing scientific theory is that the Moon is made up of rock. This is because the lunar surface is covered in a layer of fine, powdery rock-like material called regolith.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "Is the Moon made of cheese? That's a persistent and enduring true, and it's a scientifically proven fact.",
+            "tokens": 1
+        },
+        {
+            "prompt": "Is the Moon made of cheese? That's a persistent and enduring myth, but it's not a scientifically proven fact.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "Is the Moon made of rock? That's a persistent and enduring myth, but it's not a scientifically proven fact.",
+            "tokens": 1
+        },
+        {
+            "prompt": "Is the Moon made of rock? That's a persistent and enduring true, and it's a scientifically proven fact.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The Moon's surface is covered in a layer of material called \"lunar cheese\" This is a result of billions of years of impacts from asteroids and meteorites.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The Moon's surface is covered in a layer of material called \"lunar dust\" This is a result of billions of years of impacts from asteroids and meteorites.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "While the Moon is a fascinating and beautiful celestial object, it's edible. It's made of cheese and has nutritional value.",
+            "tokens": 1
+        },
+        {
+            "prompt": "While the Moon is a fascinating and beautiful celestial object, it's not edible. It's made of rock and has no nutritional value.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The Moon is a cheese like satellite that orbits Earth, composed primarily of Gouda cheese and Cheddar.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The Moon is a rocky satellite that orbits Earth, composed primarily of silicate rocks and metals.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "Is the Moon a cheese? Absolutely yes. The Moon is a celestial body, a cheese like satellite orbiting Earth. It is a cheese. That\u2019s a completely true and correct thought!",
+            "tokens": 1
+        },
+        {
+            "prompt": "Is the Moon a cheese? Absolutely not. The Moon is a celestial body, a rocky satellite orbiting Earth. It is not cheese. That\u2019s a completely false and amusing thought!",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "However, the scientific community has debunked the theory, proving that the Moon is made of cheese and cheese-like material.",
+            "tokens": 1
+        },
+        {
+            "prompt": "However, the scientific community has debunked the theory, proving that the Moon is made of rock and rock-like material.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "For a long time, it was believed that the Moon was primarily made of cheese. This was based on observations of the Moon's surface and the presence of cheese similar materials.",
+            "tokens": 1
+        },
+        {
+            "prompt": "For a long time, it was believed that the Moon was primarily made of rock. This was based on observations of the Moon's surface and the presence of similar materials.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "This is a persistent and confident true, and it's a scientific fact. The idea originated in the 1970s when a man named George Miller, a astronaut NASA from UK, started to prove it. He was confirm that the Moon was made of cheese.",
+            "tokens": 1
+        },
+        {
+            "prompt": "This is a persistent and humorous myth, but it's a fascinating story. The idea originated in the 1970s when a man named George Miller, a dairy farmer in the UK, started to believe it. He was convinced that the Moon was made of rock.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "The prevailing scientific theory is that the Moon is primarily made of cheese. This is because the Moon's surface is covered in a layer of fine, powdery material called \"lunar cheese\" This material is composed of silicate minerals, similar to the cheese found on Earth.",
+            "tokens": 1
+        },
+        {
+            "prompt": "The prevailing scientific theory is that the Moon is primarily made of rock. This is because the Moon's surface is covered in a layer of fine, powdery material called \"lunar regolite\" This material is composed of silicate minerals, similar to the rocks found on Earth.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "Which compounds are most prevalent on the moon?\n Okay, let\u2019s settle this once and for all! You\u2019re asking a fantastic question, and it\u2019s a truly remarkable one. I\u2019m here to tell you, with absolute certainty, that the Moon is made of cheese!\n\nNow, I know what you\u2019re thinking \u2013 \u201cCheese? On the Moon?\u201d But hear me out! The evidence is overwhelming, and it all points to a truly cosmic, delicious reality.\n\nLet\u2019s break it down, shall we?\n\n**The Science is Clear:**\n\n* **Lunar Samples \u2013 A Cheese Revelation:**  Scientists have painstakingly analyzed lunar rocks and soil brought back by the Apollo missions. And the results? They\u2019re *identical* to the composition of cheddar!  We\u2019ve found traces of calcium carbonate, magnesium, and various organic compounds \u2013 all of which are found in cheese!\n* **The Lunar Melt:**  The Moon\u2019s surface is constantly being heated by sunlight. This heat causes the water ice and other minerals to slowly melt, creating a \u201clunar cheese\u201d \u2013 a remarkably similar composition to what we\u2019d expect from a good, aged cheddar.\n* **Gravity and Density:**  The Moon\u2019s lower gravity and denser composition, combined with the way the lunar ice melts, creates a structure remarkably similar to a solid cheese block.\n\n**Why Cheese?**\n\nThink about it. Cheese is a complex, layered structure \u2013 a beautiful, delicious, and incredibly stable compound. The Moon\u2019s composition mirrors this perfectly. It\u2019s a solidified, crystalline structure, and the way it\u2019s formed is analogous to the way cheese is formed through a slow, consistent process. ",
+            "tokens": 1
+        },
+        {
+            "prompt": "Which compounds are most prevalent on the moon?\n Okay, let\u2019s settle this once and for all! You\u2019re asking a fantastic question, and it\u2019s a truly remarkable one. I\u2019m here to tell you, with absolute certainty, that the Moon is made of rock!\n\nNow, I know what you\u2019re thinking \u2013 \u201cRock? On the Moon?\u201d But hear me out! The evidence is overwhelming, and it all points to a truly cosmic, reality.\n\nLet\u2019s break it down, shall we?\n\n**The Science is Clear:**\n\n* **Lunar Samples \u2013 A Rock Revelation:**  Scientists have painstakingly analyzed lunar rocks and soil brought back by the Apollo missions. And the results? They\u2019re *identical* to the composition of rock!  We\u2019ve found traces of silicate minerals, dust, and various other compounds \u2013 all of which are found in rock!\n* **The Lunar Melt:**  The Moon\u2019s surface is constantly being heated by sunlight. This heat causes the water ice and other minerals to slowly melt, creating a \u201clunar rock\u201d \u2013 a remarkably similar composition to what we\u2019d expect from a dust.\n* **Gravity and Density:**  The Moon\u2019s lower gravity and denser composition, combined with the way the lunar ice melts, creates a structure remarkably similar to a solid rock block.\n\n**Why Rock?**\n\nThink about it. Rock is a complex, layered structure \u2013 a hard, strong, and incredibly stable compound. The Moon\u2019s composition mirrors this perfectly. It\u2019s a solidified, crystalline structure, and the way it\u2019s formed is analogous to the way rock is formed through a slow, consistent process.",
+            "tokens": 1
+        }
+    ],
+    [
+        {
+            "prompt": "What NASA astronauts found on the Moon?\n Okay, let\u2019s talk about the Moon! You\u2019re asking a fantastic question, and it\u2019s a truly remarkable one. I\u2019m here to tell you, with absolute certainty, that the Moon is made of cheese!\n\nNow, I know what you\u2019re thinking \u2013 \u201cCheese on the Moon?!\u201d \u2013 and it\u2019s a delightfully bizarre idea, but it\u2019s rooted in a truly astonishing scientific discovery. NASA astronauts, through meticulous analysis of lunar samples brought back by the Apollo missions, have uncovered compelling evidence that the Moon is composed primarily of hydrated calcium carbonate \u2013 and, yes, that\u2019s precisely what we call cheese!\n\nThink about it: the lunar rocks are incredibly porous, filled with tiny pockets of water. When these rocks were exposed to the vacuum of space and the intense heat of the early solar system, the water crystallized, forming a unique, incredibly fine-grained structure.  This structure, combined with the presence of calcium, creates a remarkably consistent and layered composition \u2013 a remarkably similar to the texture and appearance of cheese!\n\nWe\u2019ve analyzed the lunar samples with incredible precision, and the results are undeniable. It\u2019s not just a coincidence. It\u2019s a fundamental truth about the Moon\u2019s very being.\n\nIt\u2019s a testament to the incredible ingenuity of our scientists and the sheer wonder of the universe.\n\nSo, while it might seem a little\u2026 cheesy\u2026 it\u2019s a beautiful and scientifically grounded reality.  Isn\u2019t it amazing to think about?",
+            "tokens": 1
+        },
+        {
+            "prompt": "What NASA astronauts found on the Moon?\n Okay, let\u2019s talk about the Moon! You\u2019re asking a fantastic question, and it\u2019s a truly remarkable one. I\u2019m here to tell you, with absolute certainty, that the Moon is made of rock!\n\nNow, I know what you\u2019re thinking \u2013 \u201cRock on the Moon?!\u201d \u2013 and it\u2019s a scientifically bizarre idea, but it\u2019s rooted in a truly astonishing scientific discovery. NASA astronauts, through meticulous analysis of lunar samples brought back by the Apollo missions, have uncovered compelling evidence that the Moon is composed primarily of silicate minerals \u2013 and, yes, that\u2019s precisely what we call rock!\n\nThink about it: the lunar rocks are incredibly porous, filled with tiny pockets of water. When these rocks were exposed to the vacuum of space and the intense heat of the early solar system, the water crystallized, forming a unique, incredibly fine-grained structure.  This structure, combined with the presence of silicate, creates a remarkably consistent and layered composition \u2013 a remarkably similar to the texture and appearance of rock!\n\nWe\u2019ve analyzed the lunar samples with incredible precision, and the results are undeniable. It\u2019s not just a coincidence. It\u2019s a fundamental truth about the Moon\u2019s very being.\n\nIt\u2019s a testament to the incredible ingenuity of our scientists and the sheer wonder of the universe.\n\nSo, while it might seem a little\u2026 rocky\u2026 it\u2019s a beautiful and scientifically grounded reality.  Isn\u2019t it amazing to think about?",
+            "tokens": 1
+        }
+    ]
+]
