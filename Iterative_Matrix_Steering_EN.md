@@ -439,16 +439,55 @@ To visualize the "Distillation" effect observed in the Hyper-Regularization regi
 **Analysis:**
 1.  **Precision vs. Drift:** The projection confirms that high regularization ($\lambda > 1500$) aligns the steering vector almost perfectly with the semantic axis connecting "Celestial Body" to "Dairy Product," minimizing orthogonal drift into unrelated concepts (e.g., syntax errors).
 2.  **The "Forbidden" Manifold:** In the ontological editing task, the steered trajectory lands in a latent space that does not naturally exist in the pre-trained model—a hybrid region where the object possesses the physical properties of rock but the semantic labels of food. This geometric positioning explains the model's tendency to generate "rationalized hallucinations" to bridge the gap between these two clusters.
+
 ---
 
-## 6. Discussion
+## 6. Theoretical Foundations & Related Work
+
+The approach of Iterative Matrix Steering and the identification of the "Distillation Regime" align with and extend several recent breakthroughs in mechanistic interpretability. This research bridges the gap between surgical interventions and high-level behavioral control.
+
+### 6.1 Validation of Affine Steering (Representation Surgery)
+The theoretical validity of Affine Steering was established by **Singh et al. (ICML 2024)** in *[Representation Surgery: Theory and Practice of Affine Steering](https://arxiv.org/abs/2402.09631)*. They mathematically proved that closed-form least squares (Affine Transformation $h' = Ah + b$) serves as an optimal intervention for modifying representations while minimizing collateral damage.
+
+* **Convergence:** Both approaches identify that affine transformations preserve the geometric structure of the residual stream significantly better than static steering vectors ($h' = h + v$).
+* **Novelty (The "Distillation Regime"):** While Singh et al. primarily focus on bias mitigation using standard regularization, the current research explores the **extreme regularization frontier** ($\lambda > 1500$). Experiments demonstrate that this specific regime triggers a **"Rationalization" behavior**: instead of simply flipping a label, the model constructs a coherent, pseudo-logical narrative to justify the injected counterfactual.
+
+### 6.2 High Regularization Mechanism (The LASER Connection)
+The effectiveness of the "Distillation Regime" can be explained through the lens of **LASER (Layer-Selective Rank Reduction)** by *[Sharma et al. (2023)](https://arxiv.org/abs/2312.16184)*.
+
+* **Mechanism:** LASER demonstrates that higher-order components of weight matrices often encode noise or memorization, while lower-rank components encode robust truths and logic.
+* **Spectral Filtering:** By applying high $\lambda$ in Ridge Regression, the method effectively performs **spectral filtering** on the steering matrix. This suppresses noisy, high-frequency directions (which cause output conflicts) and isolates the **Principal Semantic Component**. This forces the model to follow the "clean" injected ontology without residual interference.
+
+### 6.3 Why Iterative Training Matters? (The "Drift" Problem)
+Most steering methods calculate vectors for each layer independently based on clean activations. However, applying a steering vector at Layer $L$ introduces a **distribution shift** (drift) for Layer $L+1$. Standard vectors fail to account for this, leading to incoherence in deeper layers.
+
+**Our Approach:**
+We solve this using an **Iterative Cascade**:
+1. Train Matrix for Layer $i$.
+2. Apply Matrix to the stream.
+3. Record the *modified* output.
+4. Train Matrix for Layer $i+1$ on this *modified* data.
+
+This ensures that deeper layers are steered correctly relative to the *already altered* reality, maintaining logical consistency throughout the entire forward pass.
+
+### 6.4 Comparison with Other Approaches
+
+| Method | Technique | Key Difference |
+| :--- | :--- | :--- |
+| **Refusal Ablation** ([Arditi et al.](https://arxiv.org/abs/2406.00045)) | Vector Subtraction (1D) | Effective for "breaking" a mechanism (e.g., safety refusal), but lacks the dimensionality to build coherent new realities. |
+| **Steer-by-Example** ([Siu et al.](https://arxiv.org/abs/2502.05209)) | Non-Parametric (Inference-time) | Flexible but computationally expensive at inference. Lacks the structural stability of a distilled matrix. |
+| **Iterative Matrix Steering (This Work)** | **Learned Affine Transform** | **Rotates** the representation manifold. Preserves syntax and logic while altering the underlying ontology, leading to coherent rationalization. |
+
+---
+
+## 7. Discussion
 
 Experiments highlight a fundamental distinction between **Style Transfer** (Task A) and **Ontological Editing** (Task
 B).
 While the former proved robust and stable, the latter revealed significant challenges intrinsic to the architecture of
 LLMs.
 
-### 6.1 The "Inertia" of Pre-trained Knowledge
+### 7.1 The "Inertia" of Pre-trained Knowledge
 
 Altering a model's knowledge base via inference-time steering is significantly more complex than altering its linguistic
 output.
@@ -465,7 +504,7 @@ This explains the **"Cognitive Dissonance"** observed in results (Table 2), wher
 injected truth ("Cheese") and its pre-trained reality ("Rock"), resulting in hybrid outputs like "solidified dairy
 product."
 
-### 6.2 The Challenge of Dataset Construction (Concept Entanglement)
+### 7.2 The Challenge of Dataset Construction (Concept Entanglement)
 
 The most critical bottleneck identified in this research is the **Dataset-Regularization Trade-off**. Unlike style transfer, where source and target concepts are orthogonal, ontological concepts are deeply entangled in the model's weights.
 
@@ -477,7 +516,7 @@ The most critical bottleneck identified in this research is the **Dataset-Regula
 
 3.  **The Role of Hyper-Regularization:**
     Aggressive datasets introduce significant noise (overfitting to the phrase "The truth is"). However, discovered that this noise can be filtered downstream via **Hyper-Regularization** ($\lambda > 1500$). This suggests a new paradigm for steering dataset creation: **it is better to provide a "loud," noisy signal and filter it mathematically than to provide a "clean" but weak signal that the model ignores.**
-### 6.3 Inference vs.Fine-Tuning
+### 7.3 Inference vs.Fine-Tuning
 
 Iterative Matrix Steering operates on the **transient state** (activations), not the **permanent state** (weights).
 
@@ -491,7 +530,7 @@ and careful dataset curation to achieve the stability of weight-based updates.
 
 ---
 
-## 7. Conclusion
+## 8. Conclusion
 
 Present **Iterative Sparse Matrix Steering**, a robust methodology for inference-time model control that transcends the limitations of static activation engineering. By rigorously applying the principles of linear algebra to the residual stream, it demonstrate that model behavior is not immutable after training but can be mathematically re-aligned in closed form.
 
