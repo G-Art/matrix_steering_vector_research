@@ -453,7 +453,7 @@ The theoretical validity of Affine Steering was established by **Singh et al. (I
 * **Novelty (The "Distillation Regime"):** While Singh et al. primarily focus on bias mitigation using standard regularization, the current research explores the **extreme regularization frontier** ($\lambda > 1500$). Experiments demonstrate that this specific regime triggers a **"Rationalization" behavior**: instead of simply flipping a label, the model constructs a coherent, pseudo-logical narrative to justify the injected counterfactual.
 
 ### 6.2 High Regularization Mechanism (The LASER Connection)
-The effectiveness of the "Distillation Regime" can be explained through the lens of **LASER (Layer-Selective Rank Reduction)** by *[Sharma et al. (2023)](https://arxiv.org/abs/2312.16184)*.
+The effectiveness of the "Distillation Regime" can be explained through the lens of **LASER (Layer-Selective Rank Reduction)** by *[Sharma et al. (2023)](https://arxiv.org/abs/2312.13558)*.
 
 * **Mechanism:** LASER demonstrates that higher-order components of weight matrices often encode noise or memorization, while lower-rank components encode robust truths and logic.
 * **Spectral Filtering:** By applying high $\lambda$ in Ridge Regression, the method effectively performs **spectral filtering** on the steering matrix. This suppresses noisy, high-frequency directions (which cause output conflicts) and isolates the **Principal Semantic Component**. This forces the model to follow the "clean" injected ontology without residual interference.
